@@ -1,7 +1,7 @@
 fn main() {
-    let my_foo = "Foo";
-    for _i in 0..3 {
-        // "{}"で第二引数の変数を出力
-        println!("{}", my_foo);
-    }
+    let mut message = "hello, foo"; // message に"hello, foo" を束縛している、これは再代入できないためエラーが出る
+    println!("{}", message);
+
+    message = "hello, bar";// mut をつけることで再代入が可能となる。
+    println!("{}", message);
 }
