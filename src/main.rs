@@ -5,3 +5,6 @@ fn main() {
     message = "hello, bar";// mut をつけることで再代入が可能となる。
     println!("{}", message);
 }
+
+
+const URL: &str = "https://example.com"; // const をつけると定数として宣言できる、 let と違い再宣言できない
