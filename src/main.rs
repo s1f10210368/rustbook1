@@ -7,4 +7,4 @@ fn main() {
 }
 
 
-const URL: &str = "https://example.com"; // const をつけると定数として宣言できる、 let と違い再宣言できない
+const URL: &str = "https://example.com"; // const をつけると定数として宣言できる、 let と違い再宣言できないような使用となっている
