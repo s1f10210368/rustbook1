@@ -5,9 +5,7 @@ fn main() {
         println!("{}", my_foo);
     }
 }
-
 // 上に cargo clippy を適用すると以下のように
-
 fn main() {
     let my_foo = "Foo";
     for _i in 0..3 {
